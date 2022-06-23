@@ -1,0 +1,155 @@
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'American Typewriter', sans-serif;
+    scroll-behavior: smooth;
+    font-size: large;
+} */
+/*
+using '.' is for classes and divs 
+using '#' is for id
+*/
+
+
+/* #signup{
+    font-style: italic;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  
+} */
+
+
+#hero{
+  height: 90vh;
+  width: 100%;
+  color: azure;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/men.png");
+  background-position: top 25% right 0%;
+  background-size: cover;
+}
+
+
+#hero h4{
+    font-size: 100px;
+    align-self: right;
+    color: black;
+    margin-top: 0px;
+    margin-left: 50%;
+   margin-bottom: 5px;
+}
+
+
+#hero h1{
+    font-size: 30px;
+    color: black;
+    margin-left: 50%;
+    font-style: italic;
+}
+
+
+#hero button{
+color: white;
+background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-left: 50%;
+background-color: transparent;
+font-size: 30px;
+
+display:block;
+height: 100px;
+width: 150px;
+border-radius: 50%;
+border-color: black;
+
+}
+
+
+
+
+
+
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    margin-top: 0px;
+    background-color: black;
+    /* background-color: #2F4F4F; */
+}
+
+#navbar{
+    
+    display:flex;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'American Typewriter', sans-serif;
+    scroll-behavior: smooth;
+    font-size: large;
+}
+
+#navbar li{
+    list-style: none; 
+    padding: 0 20px;
+}
+
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #fff;
+}
+
+.grid-container{
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    width: 100vw;
+    height: 100vh; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 1fr 1fr 100px ;
+
+}
+.grid-item_{
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   font-style: normal;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid-item2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+
+
+/*
+contact.html
+*/
+
+#talkcock h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
